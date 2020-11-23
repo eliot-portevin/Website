@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3b4d5e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.timecontainer{
+    width: 50%;
+    float: left;
+}
+
+#clock{
+    font-size: 25px;
+    width: 640px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    line-height: 25px;
+    color: #fff;
+}
+
+.kali .android .macos{
+    width: 100%;
+}
+.selfie{
+    width: 100%;
+    position: relative;
+    float: right;
+}
+.kali img{
+    width: 7%;
+    margin-top: 7%;
+    margin-left: 55%;
+}
+.macos img{
+    width: 7%;
+    margin-top: 2%;
+    margin-left: 55%;
+}
+.android img{
+    width: 7%;
+    margin-top: 2%;
+    margin-left: 55%;
+}
+.selfie img{
+    width: 24%;
+    margin-top: -30%;
+    margin-left: 72%;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 6%;
+    position: absolute;
+    color: white;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 10%;
+}
+
+.app-text p{
+    font-size: 15px;
+    width: 150%;
+    margin-left: 10%;
+    line-height: 25px;
+    color: rgb(224, 224, 224);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 13vh;
+    background-color: #212F3D;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: white;
+}
+.nav-links{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+    padding: none;
+}
+
+.nav-links li{
+    list-style: none;
+    float: right;
+}
+
+.nav-links a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-right: 10%;
+    font-weight: bold;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .3s;
