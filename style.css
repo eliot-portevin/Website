@@ -61,7 +61,7 @@ body{
 }
 
 .app-text{
-    width: 50%;
+    width: 28%;
     float: left;
 }
 .app-text h1{
@@ -75,7 +75,8 @@ body{
     font-size: 15px;
     width: 150%;
     margin-left: 10%;
-    line-height: 25px;
+    margin-top: 5%;
+    line-height: 3vh;
     color: rgb(224, 224, 224);
 }
 
@@ -84,20 +85,24 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 13vh;
-    background-color: #212F3D;
+    background-image: linear-gradient(to right, #344556, #212F3D);
     font-family: 'Poppins', sans-serif;
 }
 
 .logo{
-    text-transform: uppercase;
     letter-spacing: 6px;
     color: white;
+    margin-left: 13%;
+    margin-top: 0.7%;
+    width: 100%;
 }
 .nav-links{
     display: flex;
-    width: 35%;
+    width: 100%;
+    margin-left: 10%;
     justify-content: space-around;
     padding: none;
+    float: right;
 }
 
 .nav-links li{
