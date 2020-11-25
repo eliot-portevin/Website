@@ -102,7 +102,7 @@ nav{
     float: right;
 }
 
-.nav-links a, button{
+.nav-links a{
     float: right;
     color: white;
     text-decoration: none;
