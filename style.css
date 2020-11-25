@@ -3,28 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #3b4d5e;
-    font-family: 'Poppins', sans-serif;
-}
 
-.timecontainer{
-    width: 50%;
-    float: left;
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, #446482, #212d39)
 }
 
 #clock{
-    font-size: 25px;
+    font-size: calc(25px + 1vw);
     width: 640px;
-    margin-left: 20%;
-    margin-bottom: 10%;
+    margin-left: 8%;
     line-height: 25px;
     color: #fff;
 }
 
-.kali .android .macos{
-    width: 100%;
-}
 .selfie{
     width: 100%;
     position: relative;
@@ -76,7 +68,7 @@ body{
     width: 150%;
     margin-left: 10%;
     margin-top: 5%;
-    line-height: 3vh;
+    line-height: 2vw;
     color: rgb(224, 224, 224);
 }
 
@@ -99,7 +91,7 @@ nav{
 .nav-links{
     display: flex;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 5%;
     justify-content: space-around;
     padding: none;
     float: right;
@@ -110,7 +102,7 @@ nav{
     float: right;
 }
 
-.nav-links a{
+.nav-links a, button{
     float: right;
     color: white;
     text-decoration: none;
@@ -118,10 +110,15 @@ nav{
     margin-right: 10%;
     font-weight: bold;
     border: none;
-    padding: 4px 10px;
+    padding: 5px 12px;
     border-radius: 50px;
 }
 
 a.active,a:hover{
     background: #1b9bff;
     transition: .3s;
+
+.timecontainer{
+    width: 100%;
+    float: left;
+}
